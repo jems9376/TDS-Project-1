@@ -725,7 +725,7 @@ async def health_check():
         )
     
 @app.get("/test")
-async def test_endpoint():
+def test_endpoint():
     return {"message": "Hello, world!"}
 
 if __name__ == "__main__":
